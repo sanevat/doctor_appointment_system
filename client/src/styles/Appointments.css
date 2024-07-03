@@ -1,0 +1,164 @@
+.rowClassName1 {
+    border-style: solid;
+    background-color: #f3f2f2;
+    border-color: red;
+
+}
+
+.tableAppointments {
+    border-style: none;
+    margin: 60px;
+    margin-top: 0px;
+    border-radius: 10px;
+
+}
+
+.rowClassName1 td:first-child {
+    background-color: #f3f2f2;
+}
+
+.profilePic {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+
+.appList {
+    text-decoration: double;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 60px;
+    background-color: #fafafa;
+margin-right: 60px;
+    height: 50px;
+    padding: 0;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+.appList p{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.chartHeader{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.doctorContainerAfternoon{
+
+    background-color: #f3f2f2;
+    border-radius: 20px;
+    padding: 20px;
+    width: 700px;
+    height: 150px;
+}
+.doctorContainerAfternoon h3{
+    color:#17a4c7;
+    padding-top: 0px;
+    margin-top: 30px;
+    text-align: center;
+}
+.afternoon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.likeImg{
+    width: 300px;
+    height: 40px;
+   margin-left: 350px;
+}
+.analyzer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cardAnalysis{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f3f2f2;
+    width: 190px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 10px;
+ 
+    margin-bottom: 50px;
+}
+.chartContainer{
+    background-color: #f3f2f2;
+    border-radius: 20px;
+
+}
+.doctorImgApp{
+    width: 100px;
+    height: 120px;
+    border-radius: 10px;
+}
+.number1{
+    background-color: #e5fefe;
+    color: #17a4c7;
+    font-size: larger;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 7px;
+}
+.number2{
+    background-color:rgb(208, 180, 208);
+    color: purple;
+    font-size: larger;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 7px;
+}
+.number3{
+    background-color:rgb(180, 220, 180);
+    color: green;
+    font-size: larger;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 7px;
+}
+.number4{
+    background-color:rgb(218, 188, 188);
+    color: red;
+    font-size: larger;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 7px;
+}
+.number5{
+    background-color:rgb(215, 213, 213);
+    color: green;
+    font-size: larger;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 7px;
+}
+.allPatients{
+    padding-top: 5px;
+    color:#17a4c7;
+}
+.todays{
+    padding-top: 5px;
+    color:rgb(176, 17, 176)
+}
+.rejected{
+    padding-top: 5px;
+    color:red;
+}
+.approved{
+    padding-top: 5px;
+    color:rgb(19, 181, 19);
+}
+.completed{
+    padding-top: 7px;
+    color: black;
+}

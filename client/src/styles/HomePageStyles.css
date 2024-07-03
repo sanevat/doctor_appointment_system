@@ -1,0 +1,292 @@
+.home__img {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 83%;
+}
+.home__data {
+    color: white;
+    position: absolute;
+    top: 250px;
+    
+}
+
+.circles {
+    flex-direction: row;
+    margin-top: 10rem;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: var(--white);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    align-items: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.counter {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--darker-blue);
+}
+
+.circle-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--light-text-color);
+}
+
+.container {
+    display: flex;
+}
+
+.spanChangedColor {
+    color: rgb(158, 204, 200);
+}
+
+.results-info {
+    text-align: center;
+    margin: auto;
+    padding-top: 70px;
+    color: #1d7388;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.form-container-contactUs{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.form-label:focus {
+    border-color: aquamarine;
+}
+
+.contactUs1 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+
+.contactUs2 {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 20px;
+}
+#message{
+    width: 520px;
+    height: 150px;
+}
+
+.submitButtonContactUs {
+    justify-content: center;
+    text-align: center;
+    background-color: #1d7388;
+    border-radius: 10px;
+    size: 20px;
+    width: 300px;
+    color: white;
+    height: 50px;
+    border-style: hidden;
+    font-size: 1.2rem;
+    margin-top:20px;
+}
+
+.contactUs-button-container
+{
+    margin-left: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.textAreaMessage {
+    height: 200px;
+}
+
+.reasonsToChoose {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.surgeonImg {
+    height: 400px;
+    border-radius: 10px;
+}
+
+.container1 {
+    margin-top: 70px;
+}
+
+.textColored {
+    color: #1d7388;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.servicesProvided h1 {
+    color: #1d7388;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.servicesProvided p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 350px;
+    height: 420px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border-style: hidden;
+    background-color: rgb(249, 249, 249);
+
+}
+
+.cardImg {
+    width: 250px;
+    height: 230px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.title {
+    color: #1d7388;
+    text-decoration: double;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.cardTxt {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.footer {
+    background-color: #1d7388;
+    margin-top: 200px;
+}
+footer{
+    background-color: #1d7388;
+}
+.footer img {
+    width: 200px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footerComp1 img {
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.footerComp2 {
+
+    padding-top: 50px;
+
+}
+
+#copyRight {
+    color: rgb(221, 220, 217);
+    padding-top: 50px;
+}
+
+.footerComp2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+
+}
+
+.footerComp2 i {
+    padding-right: 10px;
+    color: white;
+}
+
+#followUs {
+    left: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.map{
+    align-items: center;
+    text-align: center;
+}
+.form-control{
+    width: 600px;
+    align-items: center;
+}
+.form-select{
+    width:600px;
+}
+.teamMembers{
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    align-self: center;
+}
+.cardsConatiner{
+    margin: 50px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.home__data .wave{
+    position: absolute;
+    bottom: -300px;
+    height: 11rem;
+    width: 1607px;
+    margin:0px;
+    left:-200px;
+    right:-70px;
+    background: url('../img/wave.png');
+    background-size: 100rem 11rem;
+    animation: waves 8s linear infinite;
+    background-repeat: repeat-x;
+}
+.home .wave2{
+    animation-direction: reverse;
+    animation-duration: 6s;
+    opacity: .3;
+}
+.home .wave3{
+    animation-duration: 4s;
+    opacity: .5;
+}
+@keyframes waves{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 100rem;
+    }
+}

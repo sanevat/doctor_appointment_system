@@ -1,0 +1,49 @@
+.cards{
+    height: 500px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border-style: hidden;
+    background-color: rgb(249, 249, 249);
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.cardImage{
+
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-radius: 100%;
+   
+}
+
+.title {
+    text-align: center;
+    color: #688e97;
+    text-decoration: double;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.makeApp{
+    justify-content: center;
+    text-align: center;
+    background-color: #668e98;
+    border-radius: 10px;
+    size: 10px;
+    width: 250px;
+    color: white;
+    height: 40px;
+    border-style: hidden;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.arrow{
+    size: 30px;
+}

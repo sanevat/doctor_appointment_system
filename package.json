@@ -1,0 +1,38 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "client": "npm start --prefix ./client",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Teodora Saneva",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/pickers": "^3.3.11",
+    "@mui/material": "^5.14.9",
+    "@mui/x-date-pickers": "^6.14.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.1",
+    "cloudinary": "^1.41.0",
+    "concurrently": "^8.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "moment": "^2.29.4",
+    "mongoose": "^7.5.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1",
+    "react-big-calendar": "^1.8.4"
+  }
+}

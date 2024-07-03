@@ -1,0 +1,22 @@
+.cardNotiffication{
+    width: 80%;
+    box-sizing: border-box;
+    border-style:solid;
+    border-color: rgb(216, 212, 212);
+border-radius: 10px;
+    height: 80px;
+ 
+    margin:auto;
+    margin-bottom: 20px;
+    display: flex;
+   
+}
+.card-text{
+    padding-top: 10px;
+    padding-left: 20px;
+font-size: medium;
+}
+.profilePic{
+    width: 70px;
+    height: 90%;
+}

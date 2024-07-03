@@ -1,0 +1,50 @@
+.main {
+    padding: 20px;
+    height: 100vh;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar .navbar-nav>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    background-color: #dededd;
+    color: hsl(0, 0%, 0%);
+}
+
+
+.nav-item a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-item i {
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.header
+{
+    display:flex;
+    justify-content: flex-end;
+    margin: 0 15px;
+}
+.header i{
+   font-size: 1.5rem;
+   margin-right: 5px;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+    margin:0 10px;
+    text-transform: uppercase;
+ 
+}
+
+.logoPicture
+{
+    width: 200px;
+  padding-left: 100px;
+}
