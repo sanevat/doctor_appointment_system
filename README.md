@@ -13,7 +13,7 @@ Welcome to the **Medical Appointment System**, a comprehensive MERN stack applic
 | Appointment Booking     | Schedule appointments with preferred doctors based on availability.|
 | Profile Management      | Manage and update personal profiles                      |
 
-##Installation
+## Installation 
 To run the project locally, follow these steps:
 1. Clone the repository:
    ```bash
